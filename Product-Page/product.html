@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">   
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #33cc66;
+  overflow: auto;
+  }
+
+.navbar a {
+  float: right;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.navbar a:hover {
+  background-color: #13ec61;
+}
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+[class*="col-"]{
+  width: 100%;
+}
+
+#image {
+  display: block;
+  width: 94rem;
+  border: white solid 5px;
+  margin: 0 auto;
+  height: 30rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container a:hover{
+  background-color: #3e8e41;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+position: relative;
+width: 100%;
+background-color: lightgreen;
+color:black;
+border: 2px solid #fde5e500;
+font-size: 13px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.grid-foot {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 2px;
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+.grid-foot > div {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 12px;
+}
+.card{
+margin : 30px;
+display : inline-block;
+width: 200px;
+height: 275px;
+background-color: #F5FBEF;
+text-align:center;
+vertical-align: top; 
+float: left;
+
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:#3e8e41;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+q {
+  text-align: 20px;
+  font-size:20px;
+  margin-top: 0px;
+}
+
+
+    </style>
+	
+    <body>
+
+        <!--------- Nav ---------->
+<div class="navbar">
+    <img class="logo-img" src="images/logo.jpg" >
+    
+      <a href="#"><i class="fa fa-fw fa-about us"></i> About Us</a> 
+      <a href="../service-page/service.html"><i class="fa fa-fw fa-service"></i> Services</a> 
+      <a href="#"><i class="fa fa-fw fa-product"></i> Products</a> 
+      <a href="../contact-form/contact.html"><i class="fa fa-fw fa-contact"></i> Contact</a>
+      <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    </div>
+	<br>
+    
+    <!--------- Backgroung Img ---------->
+    <div id="container">
+        
+      <img src="images/product-back.jpeg" width="1500" height="400"/>
+        <div class="centered">
+        <h1>Digital Farming<h1>
+        <p> DIGITAL FARMING FINANCE (DIGFARMFIN) </P>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+	
+    <center><h1 style="color: darkgreen; font-size: 50px;">Products and tools</h1></center>
+	
+	<p id = "help"></p>
+     <div class="card"> 
+        <img src="images/Digital tire.jpg" alt="Denim Jeans" style="width:100%"> 
+        <h1>Digital Tire Inflator Tool</h1> 
+        <p class="price"> $79.99 </p>
+        <p>TDR4000 Air Pressure Pneumatic Gauge with XL- Mechanic Gloves | 20in Hose | 1/4" NPT Chuck 3018 |</p> 
+      <p><button>Add to Cart</button></p>
+     <h4> 10% Discount price countdown </h4>
+	  <q id="price"></q>
+    </div> 
+      
+      
+    <div class="card">
+        <img src="images/Greenwork.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Greenworks</h1>
+        <p class="price">$129.00</p>
+        <p>Greenworks 10 Amp 14-Inch Corded Dethatcher, 27022</p>
+        <p><button>Add to Cart</button></p>
+		<p id ="expired"></p>
+		
+    </div>
+
+    <div class="card">
+        <img src="images/fire weather.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Fire Weather Meter</h1>
+        <p class="price">$19.99</p>
+        <p>Kestrel 3500FW Fire Weather Meter Pro Digital Psychrometer Altimeter Anemometer, Blaze Orange (OB-KEST-0835FWORA)</p>
+        <p><button>Add to Cart</button></p>
+		
+    </div>
+      
+      
+    <div class ="card">
+        <img src="images/kelway.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Kelway</h1>
+        <p class="price">$139.50 </p>
+        <p>Kelway - HB-2 Soil pH and Moisture Meter</p>
+        <p><button>Add to Cart</button></p>
+		
+		
+    </div>
+	
+    <div class="card">
+        <img src="images/soil sensor.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Soil Sensor Tester,</h1>
+        <p class="price">$26.96</p>
+        <p>Gobetter 4-in-1 Soil Sensor Tester, Soil Moisture Hygrometer,PH,Light,Temperature for Plant Monitor in Garden, Lawn, Farm(Battery Included)</p>
+        <p><button>Add to Cart</button></p>
+		
+		
+    </div>
+	
+      
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+	
+	
+    
+    <div class="grid-foot">
+      <div>
+        <h1>DigFarmFin</h1>
+        
+      </div>
+      <div></div>
+      <div></div>  
+      <div>
+        <p>About Us</p>
+        <p>Services</p>
+        <p>Our Culture</p>
+        <p>Our Team</p>
+        <p>Contact Us</p>
+      </div>
+      <div>
+        <h><b>More links</b></h>
+        <p>Terms and Condition</p>
+        <p>Careers and Jobs</p>
+        <p>Support & FAQs</p>
+        <p>Sign Up</p>
+        <p>Log in</p>
+      </div>
+      <div>
+        <h><b>Get in Touch</b></h>
+        <div class="social.icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+         </div>
+      </div>  
+    </div>
+    <div class="footer">
+      <hr style="height:1px;border-width:0;background-color:black">|
+      <center><div>all right reserved@DigFarmFin</div></center>
+      </hr>
+    </div>  
+
+
+
+
+
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("July 2, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="price"
+  document.getElementById("price").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("price").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+</script>
+
+
+<script src = "help.js"></script>
+    
+    </body>
+</html>

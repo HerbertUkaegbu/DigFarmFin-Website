@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DigFarmFin’s Contact Form</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<a href="../index.html" class="homepage"><h2> Back to Homepage</h2></a>
+	
+	<div class="wrapper">
+		<div id="main" style="padding:50px 0 0 0;">
+		
+		<!-- Form -->
+		<form id="contact-form" action="/" method="post">
+			<h3>DigFarmFin’s Contact Form </h3>
+			<h4>Please get in touch with us, will be happy to hear from you.</h4>
+			<div>
+			    <label>
+				    <span><h2> Purpose:<h2/></span>
+                    <select>
+                        <option selected disabled>-- Please choose an option --</option>
+                        <option>Service Request</option>
+                        <option>Product Quote</option>
+                        <option>Other</option>      
+                    </select>
+				</label>
+			</div>	
+					
+			<div>
+				<label>
+					<span>First Name: (required)</span>
+					<input placeholder="Please enter your First name" type="text" tabindex="1" required autofocus>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Last Name: (required)</span>
+					<input placeholder="Please enter your Last name" type="text" tabindex="1" required autofocus>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Email: (required)</span>
+					<input placeholder="Please enter your email address" type="email" tabindex="2" required>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Telephone: (required)</span>
+					<input placeholder="Please enter your number" type="tel" tabindex="3" required>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Message: (required)</span>
+					<textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+				</label>
+			</div>
+			<div>
+				<button name="submit" type="submit" id="contact-submit">Send Email</button>
+			</div>
+		</form>
+		<!-- /Form -->
+		
+		</div>
+	</div>
+
+	<script src="js/scripts.js"></script>
+	
+</body>
+</html>

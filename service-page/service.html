@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <title>Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">   
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #33cc66;
+  overflow: auto;
+  }
+
+.navbar a {
+  float: right;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.navbar a:hover {
+  background-color: #13ec61;
+}
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+[class*="col-"]{
+  width: 100%;
+}
+
+#image {
+  display: block;
+  width: 94rem;
+  border: white solid 5px;
+  margin: 0 auto;
+  height: 30rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container a:hover{
+  background-color: #3e8e41;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+position: relative;
+width: 100%;
+background-color: lightgreen;
+color:black;
+border: 2px solid #fde5e500;
+font-size: 13px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  padding: 100px;
+}
+.caption {
+  display: grid;
+}
+.grid-aws {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-aws2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+.grid-foot {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 2px;
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+.grid-foot > div {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 12px;
+}
+
+.next{
+  background-color: #04AA6D;
+  color: white;
+  display: inline-block;
+  padding: 10px 60px;
+}
+
+    </style>
+
+    <body>
+        <!--------- Nav ---------->
+<div class="navbar">
+    <img class="logo-img" src="images/logo.jpg" >
+    
+      <a href="#"><i class="fa fa-fw fa-about us"></i> About Us</a> 
+      <a href="#"><i class="fa fa-fw fa-service"></i> Services</a> 
+      <a href="../product-page/product.html"><i class="fa fa-fw fa-product"></i> Products</a> 
+      <a href="../contact-form/contact.html"><i class="fa fa-fw fa-contact"></i> Contact</a>
+      <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    </div>
+    <br>
+    <!--------- Backgroung Img ---------->
+    <div id="container">
+        
+      <img src="images/serlog.jpg" width="1500" height="380"/>
+        <div class="centered">
+        <h1>Digital Farming<h1>
+        <p> DIGITAL FARMING FINANCE (DIGFARMFIN) </P>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><h1 style="color: darkgreen; font-size: 50px;">Our Services</h1></center>
+    <br>
+    <br>
+    <div class="grid-aws">
+      <div class="grid-aws2">
+        <img src="images/vbn.jpg"> 
+      </div>
+      <div class="grid-aws2">
+        <img src="images/singlebase (1).jpg"/>
+      </div>
+      <div class="grid-aws2">
+        <img src="images/area.jpg">
+      </div>  
+      <div class="grid-aws2">
+        <p class="caption"><b>DigFarmFin VBN</b></p>
+        <p>DigFarmFin VBN, one of our RTK services, provides maximum accuracy and 
+           reliability by delivering corrections through a virtual base station 
+           using a wireless connection to secure servers.</p>
+        <a href="#" class="next">learn more &raquo;</a>
+      </div>
+      <div class="grid-aws2">
+        <p class="caption"><b>DigFarmFin Single FarmBase</b></p>
+      <p>Reliable RTK solution that eliminates the need to maintain 
+          a line of sight between the tractor and base station. View Our Base Stations</p>
+      <a href="#" class="next">learn more &raquo;</a>
+      </div>
+      <div class="grid-aws2">
+        <p class="caption"><b>DigFarmFin Coverage Area</b></p>
+      <p>We are always expanding our coverage area. Find out if your area is already covered. View Our Subscriptions</p>
+      <a href="#" class="next">learn more &raquo;</a>
+      </div>  
+       
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="grid-foot">
+      <div>
+        <h1>DigFarmFin</h1>
+        
+      </div>
+      <div></div>
+      <div></div>  
+      <div>
+        <p>About Us</p>
+        <p>Services</p>
+        <p>Our Culture</p>
+        <p>Our Team</p>
+        <p>Contact Us</p>
+      </div>
+      <div>
+        <h><b>More links</b></h>
+        <p>Terms and Condition</p>
+        <p>Careers and Jobs</p>
+        <p>Support & FAQs</p>
+        <p>Sign Up</p>
+        <p>Log in</p>
+      </div>
+      <div>
+        <h><b>Get in Touch</b></h>
+        <div class="social.icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+         </div>
+      </div>  
+    </div>
+    <div class="footer">
+      <hr style="height:1px;border-width:0;background-color:black">|
+      <center><div>all right reserved@DigFarmFin</div></center>
+      </hr>
+    </div>  
+    
+    </body>
+</html>
